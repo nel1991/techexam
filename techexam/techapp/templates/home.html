@@ -1,0 +1,66 @@
+{% extends "base.html" %} {% block title %} My Favorite Books {% endblock %}
+{% block content %}
+
+{% load static %}
+
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">List </th>
+      <th scope="col">Book Title</th>
+      <th scope="col">Book Author</th>
+      <th scope="col">Brief Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Harry Potter</td>
+      <td>Jk Rowling</td>
+      <td>A story of a boy wizard </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Lord of the Rings</td>
+      <td>John Ronald Reuel Tolkien</td>
+      <td>the saga of a group of sometimes reluctant heroes who
+          set forth to save their world from consummate evil</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Snow White and the seven Dwarfs</td>
+      <td>The Grim Brothers</td>
+      <td> a teenage girl blessed with beauty so flawless and enchanting,
+          she is the "fairest in the land."</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div class="welcome">
+<h1 class="textwelcome">WELCOME TO DOUBLE A LANDSCAPING</h1>
+
+<p class="para">Homegrown in the heart of Western New York, Double A Landscaping started in 2018 when weekly lawn mowing turned into a movement. Over the past 4 years, Double A has been
+    transforming hundreds of backyards into masterpieces for customers to enjoy for years to come.</p>
+
+<p class="para">Our mission is to provide our customers with a quality service that they can be 100% satisfied with. With our wide variety of services, our customers can get all of their landscaping needs done with just one company.
+    We are committed to providing our customers with the quality service they deserve. </p>
+
+</div>
+
+<div class="gallery">
+    <div class="first">
+        <img src="{% static 'snowlcc.jpg' %}" class="gal">
+    </div>
+
+    <div class="second">
+        <img src="{% static 'lcctwo.jpg' %}" class="gal">
+    </div>
+
+    <div class="three">
+        <img src="{% static 'lccthree.jpg' %}" class="gal">
+    </div>
+
+</div>
+{% endblock %}

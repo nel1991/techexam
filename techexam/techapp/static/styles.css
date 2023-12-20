@@ -1,0 +1,81 @@
+.welcome{
+    margin-top: 40px;
+    display: flex;
+    justify-content:center;
+
+    flex-direction: column;
+}
+.textwelcome{
+    text-align: center;
+}
+
+.para{
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.container{
+    width: 1000px;
+    height: 50px;
+
+}
+
+.navbar{
+    background-color: black !important;
+}
+#doubletext{
+    color: white;
+    margin-left: 50px;
+}
+#doubleimage{
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+.nav-item{
+    color: white !important;
+}
+
+li a{
+    color: white !important;
+}
+#navbarNav{
+    display: flex;
+    justify-content: right;
+}
+
+.gallery{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first, .second{
+    padding: 10px;
+}
+.three{
+    margin-top: 13px;
+}
+
+.gal{
+    width: 280px;
+    height: 400px;
+}
+.turn{
+    background-color: green;
+
+}
+.dream{
+    background-position: center;
+    width: 110%;
+    height: 60%;
+}
+ul{
+
+    margin-top: 20px;
+}
+
+table{
+    margin-top: 20px !important;
+}
